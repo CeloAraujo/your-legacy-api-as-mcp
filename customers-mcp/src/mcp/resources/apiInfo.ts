@@ -20,11 +20,11 @@ Customers API
 
   Base URL : ${baseUrl}
   Endpoints:
-    GET    /customers          — list all customers
-    GET    /customers/:id      — get customer by id
-    POST   /customers          — create customer  { name, phone }
-    PUT    /customers/:id      — update customer  { name, phone }
-    DELETE /customers/:id      — delete customer
+    GET    /customers          - list all customers
+    GET    /customers/:id      - get customer by id
+    POST   /customers          - create customer  { name, phone }
+    PUT    /customers/:id      - update customer  { name, phone }
+    DELETE /customers/:id      - delete customer
 
   Customer shape: { _id: string, name: string, phone: string }
 `
